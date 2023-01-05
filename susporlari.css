@@ -1,0 +1,321 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34495e;
+    z-index: 1;
+    text-align: center;
+    border-radius: 18px;
+}
+
+li {
+    display:inline-block;
+    background-color: #34495e;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 120px;
+    text-decoration: none;
+    background-color: #34495e;
+}
+
+li a:hover{
+    background-color:#f39c12; 
+}
+
+ul li ul {
+    background-color: #34495e;
+    display:none;
+    position:absolute;
+    width:300px
+}
+
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+
+hr{
+    border-top: 2px dashed red;
+}
+
+.buyukresim{
+    transition-duration: 0.3s;
+}
+
+.buyukresim:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    box-shadow: 5px 5px 3px #888888;
+    z-index: 2;
+    position:relative;
+    transition-duration: 0.3s;
+}
+
+.son {
+    align-items: flex-end;
+    background-color: black;
+    text-align: right;
+}
+
+.sporcutablo{
+    width: 80%;
+    position: fixed;
+    text-align: center;
+}
+
+.bayrak{
+    width: 25px;
+    border-radius: 13px;
+}
+
+.avatar{
+    width: 50px;
+    border-radius: 50px;
+    text-align: right;
+}
+
+.sporcubilgi{  /* düşün */
+    width: 100%;
+    text-align: center;
+}
+
+.sporcubilgi th, td {
+    padding: 30px;
+}
+
+.buyukavatar{
+    width: 300px;
+    border-radius: 170px;
+    text-align: center;
+    margin-left: 800px;
+
+}
+
+
+.etkinliktablo{ /* düşün */
+    width: 100%;
+}
+
+.haberbaslik{
+    text-align: center;
+    text-align-last: center;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.haberaltaslik{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-left: 150px;
+}
+
+.habericerik{
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-left: 150px;
+}
+
+.haberfoto{
+    text-align: center;
+    padding-left: 150px;
+}
+
+
+.haberyanfoto{
+    max-height: 200px;
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+}
+
+.haberyanbaslik{
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+}
+
+.madalyatablo{
+    width: 80%;
+    text-align: center;
+    margin-left: 180px;
+    border-spacing: 30px;
+}
+
+.madalyasatir{
+    text-align: center;
+    transition-duration: 0.3s;
+}
+
+.madalyasatir:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    box-shadow: 5px 5px 3px #888888;
+    z-index: 2;
+    position:relative;
+    transition-duration: 0.3s;
+}
+
+.buyuksponsor{
+    transition-duration: 0.3s;
+}
+
+.buyuksponsor:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    z-index: 2;
+    position:relative;
+    transition-duration: 0.3s;
+}
+
+.basvuru{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gecmis{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gecmis th,td{
+    padding: 15px;
+}
+
+
+* {
+    box-sizing: border-box;
+    background-color: paleturquoise;
+}
+
+.col-xs-1{
+    width: 8.33%;
+    float: left;
+}
+
+.col-xs-2{
+    width: 16.66%;
+    float: left;
+}
+
+.col-xs-3{
+    width: 24.99%;
+    float: left;
+}
+
+.col-xs-4{
+    width: 33.32%;
+    float: left;
+}
+
+.col-xs-5{
+    width: 41.65%;
+    float: left;
+}
+
+.col-xs-6{
+    width: 49.98%;
+    float: left;
+}
+
+.col-xs-7{
+    width: 58.31%;
+    float: left;
+}
+
+.col-xs-8{
+    width: 66.64%;
+    float: left;
+}
+
+.col-xs-9{
+    width: 74.97%;
+    float: left;
+}
+
+.col-xs-10{
+    width: 83.3%;
+    float: left;
+}
+
+.col-xs-11{
+    width: 91.63%;
+    float: left;
+}
+
+.col-xs-12{
+    width: 100%;
+    float: left;
+}
+
+@media only screen and (min-width: 600px) {
+    .col-lg-1{
+        width: 8.33%;
+        float: left;
+    }
+
+    .col-lg-2{
+        width: 16.66%;
+        float: left;
+    }
+
+    .col-lg-3{
+        width: 24.99%;
+        float: left;
+    }
+
+    .col-lg-4{
+        width: 33.32%;
+        float: left;
+    }
+
+    .col-lg-5{
+        width: 41.65%;
+        float: left;
+    }
+
+    .col-lg-6{
+        width: 49.98%;
+        float: left;
+    }
+
+    .col-lg-7{
+        width: 58.31%;
+        float: left;
+    }
+
+    .col-lg-8{
+        width: 66.64%;
+        float: left;
+    }
+
+    .col-lg-9{
+        width: 74.97%;
+        float: left;
+    }
+
+    .col-lg-10{
+        width: 83.3%;
+        float: left;
+    }
+
+    .col-lg-11{
+        width: 91.63%;
+        float: left;
+    }
+
+    .col-lg-12{
+        width: 100%;
+        float: left;
+    }
+    
+}   

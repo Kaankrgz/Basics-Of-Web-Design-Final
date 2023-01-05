@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Su Sporları Federasyonu</title>
+        <link rel="stylesheet" href="susporlari.css">
+    </head>
+    <body>
+        <ul>
+            <li><a href="susporlari.html">Ana sayfa</a></li>
+            <li><a href="">Takvim</a>
+                <ul>
+                    <li><a href="yarismalar.html">Yarışmalar</a></li>
+                    <li><a href="etkinlikler.html">Etkinlikler</a></li>
+                </ul>
+            </li>
+            <li><a href="">Geçmiş</a>
+                <ul>
+                    <li><a href="haberler.html">Haberler</a></li>
+                    <li><a href="videolar.html">Videolar</a></li>    
+                </ul>
+            </li>
+            <li><a href="">Sonuçlar</a>
+                <ul>
+                    <li><a href="tumsonuclar.html">Tüm Sonuçlar</a></li>
+                </ul>
+            </li>
+            <li><a href="sporcular.html">Sporcular</a></li>
+            <li><a href="">Daha Fazla</a>
+                <ul>
+                   <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                   <li><a href="gecmis.html">Geçmiş</a></li>
+                   <li><a href="sponsorlar.html">Sponsorlar</a></li>
+                   <li><a href="basvuru.html">Sporcu Başvuru</a></li>
+                </ul>
+            </li>
+        </ul>
+        <br />
+        <br />
+        <br />
+        <table border="2px" class="basvuru">
+            <tr>
+                <th>
+                    <img src="resim/basvurulogo.png" alt="Başvuru Logo" width="300px" />
+                </th>
+                <th>
+                    2022 Budapeşte Dünya Şampiyonası Sporcu Başvuru Formu
+                </th>
+                <th>
+                    <img src="resim/world-aquatic-basvuru.png" alt="World Aquatics Logo" width="300px" />
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <form>
+                        Branş
+                        <select name="brans">
+                            <option value="yuzme">Yüzme</option>
+                            <option value="su-topu">Su Topu</option>
+                            <option value="artistik-yuzme">Artistik Yüzme</option>
+                        </select>
+                    </form>
+                </th>
+                <th>
+                    Belge No: 2598634857
+                </th>
+                <th>
+                    <form>
+                        <input type="text" id="tarih" name="tarih" placeholder="Başvuru Tarihi">
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" id="ad" name="ad" placeholder="Ad">
+                </th>
+                <th>
+                    <input type="text" id="soyad" name="soyad" placeholder="Soyadı">
+                </th>
+                <th>
+                    Fotoğraf
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" id="dogumyeri" name="dogumyeri" placeholder="Doğum Yeri">
+                </th>
+                <th>
+                    <input type="text" id="dogumtarihi" name="dogumtarihi" placeholder="Doğum Tarihi">
+                </th>
+                <th rowspan="3">
+                    <img src="resim/avatar.png" alt="Avatar" width="300pxpx" />
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    Cinsiyet
+                    <input type="radio" id="erkek" name="cinsiyet" value="E" /><label for="erkek"> Erkek </label>
+                    <input type="radio" id="kadın" name="cinsiyet" value="K" /><label for="kadın"> Kadın </label>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    Yukarıda belirtilen sporcu ile ilgili bilgilerin doğruluğu onaylanmıştır.
+                </th>
+            </tr>
+            <tr style="height: 90px;">
+                <th>
+                    ........... Federasyonu
+                </th>
+                <th>
+                    ........... Federasyonu
+                </th>
+                <th>
+                    Spor Faaliyetleri Dairesi
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Genel Sekreteri
+                </th>
+                <th>
+                    Başkanı
+                </th>
+                <th>
+                    Başkanı
+                </th>
+            </tr>
+            <tr>
+                <th colspan="3">
+                    <button onclick="myFunction()">Başvur</button>
+
+                    <script>
+                        function myFunction() {
+                        alert("Başvurunuz Kabul Edilmiştir!");
+                    }
+                    </script>
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>
